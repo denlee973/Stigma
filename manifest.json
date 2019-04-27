@@ -1,0 +1,26 @@
+{
+  // Required
+  "manifest_version": 2,
+  "name": "StopStigma",
+  "version": "0.1",
+
+  // Recommended
+  "default_locale": "en",
+  "description": "A plain text description",
+  "icons": {...},
+
+  // Pick one (or none)
+  "browser_action": {
+    "default_icon": {
+        "icon": "public/images/icon.png"
+        },
+    "default_title": "StopStigma"
+    },
+
+
+  "background": {
+    // Recommended
+    "persistent": false,
+
+  }
+}
