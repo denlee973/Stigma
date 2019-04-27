@@ -9,7 +9,7 @@
 
   // Pick one (or none)
   "browser_action": {
-    "default_icon": "public/icon.png",
+    "default_icon": "public/airplanelogo.png",
     "default_title": "WellSent",
     "default_popup": "popup.html"
     },

@@ -1,0 +1,50 @@
+.middle {
+
+	background-color: #63b6ff; 
+	color: black;
+	margin: auto;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-family: 'Anton', sans-serif;
+	border-radius: 8px;
+}
+
+.middle:hover {
+
+	background-color: white; 
+	color: black;
+	margin: auto;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-family: 'Anton', sans-serif;
+
+}
+
+.bottom {
+
+	background-color: orange; 
+	color: black;
+	margin: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: 'Anton', sans-serif;
+	border-radius: 8px;
+}
+
+.bottom:active {
+
+	background-color: white; 
+	color: black;
+	margin: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: 'Anton', sans-serif;
+
+}
+
+img {
+
+	margin: auto;
+	padding: 5px;
+
+}
