@@ -1,0 +1,15 @@
+{
+ “manifest_version”: 2,
+ “name”: “RaterFox”,
+ “description”: “Chrome Extension to limit stigma associated with specific keywords”,
+ “version”: “1”,
+ “author”: “”,
+"browser_action": {
+   "default_icon": "tab-icon.png",
+   “default_title”: “Have a good day”
+ },
+“chrome_url_overrides” : {
+  “newtab”: “newtab.html”
+},
+ “permissions”: [“activeTab”]
+}
