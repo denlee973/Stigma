@@ -1,16 +1,16 @@
 {
   // Required
   "manifest_version": 2,
-  "name": "StopStigma",
+  "name": "WellSent",
   "version": "0.1",
 
   // Recommended
-  "description": "A plain text description",
+  "description": "Destigmatize your language around mental health.",
 
   // Pick one (or none)
   "browser_action": {
     "default_icon": "public/icon.png",
-    "default_title": "StopStigma",
+    "default_title": "WellSent",
     "default_popup": "popup.html"
     },
 
