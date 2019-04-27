@@ -7,20 +7,19 @@
   // Recommended
   "default_locale": "en",
   "description": "A plain text description",
-  "icons": {...},
+  "icons": {"icon"},
 
   // Pick one (or none)
   "browser_action": {
-    "default_icon": {
-        "icon": "public/images/icon.png"
-        },
-    "default_title": "StopStigma"
+    "default_icon": "public/images/icon.png",
+    "default_title": "StopStigma",
+    "default_popup": "popup.html"
     },
 
 
   "background": {
     // Recommended
     "persistent": false,
-
-  }
+  },
+  "permissions": ["activeTab"]
 }
