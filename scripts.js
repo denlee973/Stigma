@@ -4,7 +4,7 @@
  * @param {String} type (optional) The type of event : down, up or press. The default is down
  * @param {Object} modifiers (optional) An object which contains modifiers keys { ctrlKey: true, altKey: false, ...}
  */
-function simulateKey (keyCode, type, modifiers) {
+/*function simulateKey (keyCode, type, modifiers) {
 	var evtName = (typeof(type) === "string") ? "key" + type : "keydown";	
 	var modifier = (typeof(modifiers) === "object") ? modifier : {};
 
@@ -71,4 +71,12 @@ document.addEventListener("keydown", event => {
     return;
   }
   // do something
-});
+});*/
+
+document.querySelector("[name=q]").addEventListener("keyup", (e) => {
+	let text = e.target.value;
+	alertValue=text;
+})
+alert(alertValue);
+
+var splitText = text.split(" ");
